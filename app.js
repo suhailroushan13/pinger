@@ -18,6 +18,7 @@ let pinger = [
   //   "https://suhails.pics",
   //   "https://suhail.life",
   "https://pi-s.in",
+  "https://library.suhailroushan.in/",
   "https://compiler.csprojects.live/",
   "https://tasky.csprojects.live/",
 ];
@@ -74,5 +75,8 @@ app.get("/", async (req, res) => {
 
 app.listen(PORT, () => {
   console.log(`Server Running at 5555`);
+  // Every minute 60 * 1000
+  // Every 3 Hours 3 * 60 * 60 * 1000
+
   setInterval(pingWebsitesAndSendSMS, 60 * 1000);
 });
