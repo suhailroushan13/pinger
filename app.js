@@ -14,7 +14,14 @@ const app = express();
 let pinger = [
   "https://suhailroushan.in",
   "https://suhailroushan.com",
-  "https://suhailss.in",
+  "https://csprojects.live",
+  "https://suhail.codes",
+  "https://suhail.world",
+  "https://suhail.pics",
+  "https://suhail.life",
+  "https://pi-s.in",
+  "https://compiler.csprojects.live/",
+  "https://tasky.csprojects.live/",
 ];
 // If an error occurs during the request (e.g., network issue, server down, etc.)
 // const asiaTimezone = "Asia/Tokyo";
