@@ -13,14 +13,14 @@ let pinger = [
   "https://suhailroushan.in",
   "https://suhailroushan.com",
   "https://csprojects.live",
-  //   "https://suhail.codes",
-  //   "https://suhail.world",
-  //   "https://suhails.pics",
-  //   "https://suhail.life",
   "https://pi-s.in",
   "https://library.suhailroushan.in/",
   "https://compiler.csprojects.live/",
   "https://tasky.csprojects.live/",
+  //   "https://suhail.codes",
+  //   "https://suhail.world",
+  //   "https://suhails.pics",
+  //   "https://suhail.life",
 ];
 
 const currentDate = new Date().toLocaleString({
