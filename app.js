@@ -70,7 +70,7 @@ const sendTwilioSMS = async (message) => {
 
 app.get("/", async (req, res) => {
   await pingWebsitesAndSendSMS();
-  res.send("Ping and SMS process initiated.");
+  res.send("<h1>Ping and SMS process initiated. ✅</h1>");
 });
 
 app.listen(PORT, () => {
