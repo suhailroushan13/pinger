@@ -78,5 +78,5 @@ app.listen(PORT, () => {
   // Every minute 60 * 1000
   // Every 3 Hours 3 * 60 * 60 * 1000
 
-  setInterval(pingWebsitesAndSendSMS, 3 * 60 * 60 * 1000);
+  setInterval(pingWebsitesAndSendSMS, 6 * 60 * 60 * 1000);
 });
